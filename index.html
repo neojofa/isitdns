@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Is It DNS?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Check if your problem is DNS. (It probably is.)">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Is it DNS?</h1>
+    <p class="subtitle">It’s always DNS.</p>
+
+    <form id="dnsForm">
+      <input
+        type="text"
+        id="domain"
+        placeholder="example.com"
+        required
+      />
+      <button type="submit">Check</button>
+    </form>
+
+    <div id="result" class="hidden"></div>
+    <pre id="details" class="hidden"></pre>
+  </main>
+
+  <footer>
+    <p>Built for sysadmins. Fueled by suffering.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
