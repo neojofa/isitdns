@@ -1,5 +1,5 @@
 async function loadStats() {
-  const res = await fetch("/stats");
+  const res = await fetch("/api-stats");
   const data = await res.json();
 
   document.getElementById("total").textContent =
